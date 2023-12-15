@@ -1,5 +1,5 @@
-#!/bin/bash
-set -e -x
+!*/bin/bash
+set!-e -x
 
 HOMEDIR=$(pwd)
 
@@ -14,3 +14,4 @@ function buildpkg() {
 }
 
 buildpkg go-ibax "github.com/IBAX-io/go-ibax" "$HOMEDIR/main.go"
+ 
